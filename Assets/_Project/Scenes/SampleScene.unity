@@ -119,6 +119,86 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &475643646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 475643650}
+  - component: {fileID: 475643649}
+  - component: {fileID: 475643648}
+  - component: {fileID: 475643647}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &475643647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475643646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58dc5ac8ec0cb5048acff147805a312d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FirstRoguelike.Bloodlines.TraitTracker
+--- !u!114 &475643648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475643646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adc1225516dfcb74ba88a7fc6cfa4018, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FirstRoguelike.Blessings.PlayerInventory
+--- !u!114 &475643649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475643646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0bd9d3a61ba6bc4aba3eb4ba969c76d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FirstRoguelike.Blessings.BlessingManager
+  allBlessings:
+  - {fileID: 11400000, guid: 3120a5e0c35fbf742907606d729e91ac, type: 2}
+  - {fileID: 11400000, guid: 9b2aa64201defd24088749b6e283d77e, type: 2}
+  - {fileID: 11400000, guid: 15e5940ee5b514844a5dab5a28c0be26, type: 2}
+  - {fileID: 11400000, guid: 218d9deeb34263344bdeb69b4ba44f25, type: 2}
+  - {fileID: 11400000, guid: b08a01e588a2d7f4b84aeb829bcd098f, type: 2}
+  - {fileID: 11400000, guid: 42539d66a3c947146899cd287445c620, type: 2}
+  allBloodlines:
+  - {fileID: 11400000, guid: e984eb78799f47d4384509c7768ac05b, type: 2}
+  - {fileID: 11400000, guid: e92fabee71910b443a5eeaac421517da, type: 2}
+--- !u!4 &475643650
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475643646}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.43908, y: 0.62299, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -768,3 +848,4 @@ SceneRoots:
   - {fileID: 1637593064}
   - {fileID: 1809865657}
   - {fileID: 1521502500}
+  - {fileID: 475643650}

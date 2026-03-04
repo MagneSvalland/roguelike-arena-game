@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12663eaf3ac01444ba4d5d38ecf23f17, type: 3}
+  m_Name: Bloodlin_Dragon
+  m_EditorClassIdentifier: Assembly-CSharp::FirstRoguelike.Bloodlines.BloodlineSO
+  bloodlineName: Dragon
+  icon: {fileID: 0}
+  color: {r: 0, g: 0, b: 0, a: 0}
+  tiers:
+  - {fileID: 11400000, guid: 30d681aee8b138447860289ff83bca67, type: 2}
+  - {fileID: 11400000, guid: 1a05a874729b0fa4db9af3a8a74c67a3, type: 2}
