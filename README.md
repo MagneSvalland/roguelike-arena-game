@@ -9,12 +9,12 @@ Each run the player chooses from randomised Blessings when levelling up.
 Blessings carry a Bloodline tag — collect enough of the same Bloodline to unlock powerful synergy bonuses.
 
 ## Core Features (In Development)
-- 🌊 Wave-based arena survival
-- ⚔️ Class system (Mage, Warrior, Gunslinger, Rogue)
-- 🐉 Bloodline synergy system (Dragon, Mystic, and more)
-- 🙏 Blessing upgrade system with RNG-driven build variety
-- 🌳 Meta skill tree for permanent progression between runs
-- 📖 Story-driven stage progression + infinite mode
+- Wave-based arena survival
+- Class system (Mage, Warrior, Gunslinger, Rogue)
+- Bloodline synergy system (Dragon, Mystic, and more)
+- Blessing upgrade system with RNG-driven build variety
+- Meta skill tree for permanent progression between runs
+- Story-driven stage progression + infinite mode
 
 ## Tech Stack
 - Unity 6.3 LTS (URP, 2D)
@@ -32,3 +32,7 @@ Blessings carry a Bloodline tag — collect enough of the same Bloodline to unlo
 
 ## Project Status
 Early development — core systems being built.
+<img width="1916" height="1034" alt="image" src="https://github.com/user-attachments/assets/5d778e08-d6d5-4e08-b970-c75f00043fbb" />
+
+
+
