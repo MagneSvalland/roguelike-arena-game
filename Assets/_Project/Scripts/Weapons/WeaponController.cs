@@ -14,7 +14,7 @@ namespace FirstRoguelike.Weapons
         private PlayerStatSheet _playerStatSheet;
         private float _attackTimer;
 
-        private void Awake()
+        private void Start()
         {
             _playerStatSheet = GetComponent<PlayerStatSheet>();
             _attackStrategy = new MageAttackStrategy(projectilePrefab, _playerStatSheet.StatSheet);

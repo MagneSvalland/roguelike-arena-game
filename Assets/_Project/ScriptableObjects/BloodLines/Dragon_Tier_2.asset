@@ -15,5 +15,6 @@ MonoBehaviour:
   threshold: 2
   tierName: Bronze
   tierColor: {r: 0.8039216, g: 0.49803922, b: 0.19607843, a: 0}
-  modifiers: []
+  modifiers:
+  - {fileID: 11400000, guid: c04e4ed1e5cf86a4c9b4087458004993, type: 2}
   description: Attacks have a chance to burn enemies
