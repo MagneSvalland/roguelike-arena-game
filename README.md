@@ -32,8 +32,10 @@ Blessings carry a Bloodline tag — collect enough of the same Bloodline to unlo
 
 ## Project Status
 Early development — core systems being built.
-<img width="1916" height="1034" alt="image" src="https://github.com/user-attachments/assets/5d778e08-d6d5-4e08-b970-c75f00043fbb" />
-<img width="1464" height="1036" alt="image" src="https://github.com/user-attachments/assets/0c15a768-d626-44a8-b003-765e27ac6d1c" />
+<img width="1919" height="1033" alt="image" src="https://github.com/user-attachments/assets/1618451b-c1ac-401e-aa1b-d0b32224cf6d" />
+<img width="1913" height="1034" alt="image" src="https://github.com/user-attachments/assets/c626fca2-4c25-4699-a04c-0836f188985d" />
+
+
 
 
 
